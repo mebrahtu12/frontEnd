@@ -11,35 +11,39 @@
       <div class="head">
         <h1>Login Form</h1>
       </div>
+      <form action="">
+        <div class="input">
+          <div class="email">
+            <input type="email" required placeholder="email" />
 
-      <div class="input">
-        <div class="email">
-          <input type="email" required placeholder="email" />
-
-          <div class="img">
-            <img src="icons.img/circle-user-solid-full.svg" alt="icon" />
+            <div class="img">
+              <img src="icons.img/circle-user-solid-full.svg" alt="icon" />
+            </div>
+          </div>
+          <div class="password">
+            <input
+              type="password"
+              required
+              minlength="5"
+              maxlenght="7"
+              placeholder="password"
+            />
+            <div class="photo">
+              <img src="icons.img/camera-solid-full (1).svg" alt="icon" />
+            </div>
+          </div>
+          <p><a href="">Forget Password ?</a></p>
+          <div class="btn"><button type="submit">Login</button></div>
+          <div class="signup">
+            <p>Not a member?</p>
+            <p><a href="">Signup now</a></p>
           </div>
         </div>
-        <div class="password">
-          <input
-            type="password"
-            required
-            minlength="5"
-            maxlenght="7"
-            placeholder="password"
-          />
-
-          <div class="photo">
-            <img src="icons.img/camera-solid-full (1).svg" alt="icon" />
-          </div>
-        </div>
-        <p><a href="">Forget Password ?</a></p>
-        <div class="btn"><button type="submit">Login</button></div>
-        <div class="signup">
-          <p>Not a member?</p>
-          <p><a href="">Signup now</a></p>
-        </div>
-      </div>
+      </form>
     </div>
+    <p class="js">Hello from HTML</p>
+    <button id="bbt">clik me</button>
+
+    <script src="app.js"></script>
   </body>
 </html>

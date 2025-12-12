@@ -1,4 +1,5 @@
 
+
 document.getElementById("bbt").onclick=()=>{
    let shortWay= document.querySelector(".js");
    if(shortWay.innerHTML==="Hello from HTML")
@@ -8,7 +9,7 @@ document.getElementById("bbt").onclick=()=>{
    }
    else{
     shortWay.innerHTML="Hello from HTML";
-    shortWay.style.color="white";
+    shortWay.style.color="black";
    }
    
 

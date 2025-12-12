@@ -8,7 +8,7 @@ document.getElementById("bbt").onclick=()=>{
    }
    else{
     shortWay.innerHTML="Hello from HTML";
-    shortWay.style.color="white";
+    shortWay.style.color="green";
    }
    
 
